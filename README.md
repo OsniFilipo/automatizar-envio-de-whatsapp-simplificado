@@ -1,0 +1,1 @@
+# automatizar-envio-de-whatsapp-simplificado
