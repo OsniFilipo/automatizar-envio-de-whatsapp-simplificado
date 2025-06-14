@@ -4,10 +4,10 @@ Envie mensagens instantâneas ou agendadas para contatos e grupos no WhatsApp us
 
 ## 📌 Funcionalidades
 
-✔ Envio instantâneo de mensagens para contatos individuais
-✔ Agendamento de mensagens com hora/minuto precisos
-✔ Suporte a envio para grupos (instantâneo ou agendado)
-✔ Opções de espera e fechamento automático do navegador
+✔ Envio instantâneo de mensagens para contatos individuais.
+✔ Agendamento de mensagens com hora/minuto precisos.
+✔ Suporte a envio para grupos (instantâneo ou agendado).
+✔ Opções de espera e fechamento automático do navegador,
 
 ## ⚙️ Pré-requisitos
 
@@ -47,12 +47,14 @@ kit.sendwhatmsg("+5511984288654", "Mensagem agendada!", 15, 0, 10, True, 2)
 3. Mensagem para Grupo (Agendada)
 
 ```
+# Envia uma mensagem no WhatsApp com um horário específico
 kit.sendwhatmsg_to_group("ID_do_Grupo", "Mensagem para o grupo!", 15, 0, 10, True, 2)
 ```
 
 4. Mensagem Instantânea para Grupo
 
 ```
+# Envia uma mensagem no WhatsApp com um horário específico e sem esperar
 kit.sendwhatmsg_to_group_instantly("ID_do_Grupo", "Mensagem rápida para o grupo!")
 ```
 ## ⚠️ Observações Críticas
